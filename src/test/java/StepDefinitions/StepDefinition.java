@@ -9,6 +9,7 @@ public class StepDefinition {
 	@Given("I want to write a step with precondition")
 	public void i_want_to_write_a_step_with_precondition() {
 		System.out.println("You are great!");
+		System.out.println("You are fabulous!");
 	   
 	}
 	@Given("some other precondition")
